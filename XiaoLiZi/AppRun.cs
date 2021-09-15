@@ -51,14 +51,12 @@ namespace RobotCore
 
         private static void SetAppInfo(AppInfo appInfo)
         {
-            appInfo.sdkv = "2.8.7.5";
-            appInfo.appname = "小栗子 C# SDK 空壳";
-            appInfo.author = "福建-兮";
+            appInfo.sdkv = "2.4.7";
+            appInfo.appname = "Superfishing_bot";
+            appInfo.author = "Luke_Yu";
             appInfo.describe = string.Concat(new string[]
             {
-                "这是一个获取确认ID插件",
-                "\r\n",
-                "小栗子官网地址：http://www.xiaolz.cn/"
+                
             });
             appInfo.appv = "1.0.0";
         }

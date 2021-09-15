@@ -12,14 +12,14 @@ using SDK;
 using SDK.Events;
 using SDK.Interface;
 
-namespace MsTool
+namespace FishingBot
 {
     public class RecPrivateMsg : IRecvicetPrivateMessage
     {
         public void RecvicetPrivateMsg(PrivateMessageEvent e)
         {
-            
+
         }
-        
+
     }
 }
